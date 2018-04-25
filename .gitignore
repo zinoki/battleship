@@ -1,0 +1,16 @@
+## NPM ##
+node_modules
+
+
+## MAC ##
+.DS_Store
+
+
+## Compiled Files ##
+compiled/
+dist/
+
+
+## API Keys ##
+src/config/API_KEY
+compiled/config/API_KEY
