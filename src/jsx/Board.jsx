@@ -1,8 +1,12 @@
-const makeBoard = (num) => {
-  let board = [];
-  for (let i = 0; i < num; i += 1) {
-    let newRow = new Array(num);
-    board.push(newRow);
-  }
-  return board;
+import React, { Component } from 'react';
+import { boardMaker } from './boardMaker.js';
+
+const Board = () => {
+  
+  return (
+    <div>
+    </div>
+  )
 }
+
+exports.Board = Board;
