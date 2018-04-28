@@ -1,8 +1,8 @@
 import React from 'react';
 import { boardMaker } from './boardMaker.js';
 
-const BoardRow = (props) => {
-  return (props.row.map((square, index) => <div>{square}</div>))
+const BoardRow = ({ row, index }) => {
+  return (row.map((square, sqIndex) => <td>{square}</td>))
 }
 
 exports.BoardRow = BoardRow;

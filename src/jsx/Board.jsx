@@ -5,9 +5,11 @@ import { BoardRow } from './BoardRow.jsx';
 const Board = () => {
   let board = boardMaker(8);
   return (
-    <div>
-      {board.map((row, index) => (<BoardRow row={row}/>))}
-    </div>
+    <table>
+      <tbody>
+        {board.map((row, index) => (<tr><BoardRow row={row} index={index}/></tr>))}
+      </tbody>
+    </table>
   )
 }
 
