@@ -7,7 +7,7 @@ const Board = () => {
   return (
     <table>
       <tbody>
-        {board.map((row, index) => (<tr><BoardRow row={row} index={index}/></tr>))}
+        {board.map((row, rowIndex) => (<tr><BoardRow row={row} index={rowIndex}/></tr>))}
       </tbody>
     </table>
   )
