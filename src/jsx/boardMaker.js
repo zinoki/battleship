@@ -6,3 +6,5 @@ const boardMaker = (num) => {
   }
   return board;
 }
+
+exports.boardMaker = boardMaker;
